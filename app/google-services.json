@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "448608354838",
+    "project_id": "petqper-id",
+    "storage_bucket": "petqper-id.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:448608354838:android:a8e35952fed3f1587aab37",
+        "android_client_info": {
+          "package_name": "com.elflin.petqper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "448608354838-3fckt125hjuotknfdi8afp81vhqgm26f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elflin.petqper",
+            "certificate_hash": "9deca1f6fb6fc6b97d0e935c6aaacf19d66e0a64"
+          }
+        },
+        {
+          "client_id": "448608354838-l827q8h14qb1s8l6osvkjq44s4kllk6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9wP8lMJ-hD1QlM1nvlA1h1WW7R1kwTH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "448608354838-l827q8h14qb1s8l6osvkjq44s4kllk6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
