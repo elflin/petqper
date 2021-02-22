@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Petqper</string>
+    <string name="username_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="notmemberyet">Not a member yet?</string>
+    <string name="registerhere">Register Here</string>
+    <string name="fullname">Full name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="confirmPassword">Confirm Password</string>
+
 </resources>
