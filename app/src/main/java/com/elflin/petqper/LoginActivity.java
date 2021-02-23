@@ -24,7 +24,6 @@ public class LoginActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseUser currentUser;
     private User user;
-    private int REGISTER_CODE = 100;
 
     @Override
     protected void onStart() {
@@ -51,19 +50,17 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 intent = new Intent(getBaseContext(), RegisterActivity.class);
-                startActivityForResult(intent,REGISTER_CODE);
+                startActivity(intent);
             }
         });
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == REGISTER_CODE){
-            if (resultCode == 1){
+        this.submit_login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                intent = new Intent(getBaseContext(), MainActivity.class);
+                startActivity(intent);
                 finish();
             }
-        }
+        });
     }
 
     private void initComponent() {

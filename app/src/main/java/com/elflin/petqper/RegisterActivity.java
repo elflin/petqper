@@ -55,9 +55,9 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 getDataFromForm();
                 if (datachecker()) {
-                    intent = new Intent();
-                    setResult(1);
-                    finish();
+                    intent = new Intent(getBaseContext(), MainActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+                    startActivity(intent);
                 }
             }
         });
